@@ -23,3 +23,10 @@ addopts = "--cov=app --cov-report=term-missing"
 [tool.coverage.run]
 source = ["app"]
 concurrency = ["greenlet", "thread"]  # SQLAlchemy async runs on greenlets; without this coverage under-reports
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"]
+ignore = ["E501", "E731"]
