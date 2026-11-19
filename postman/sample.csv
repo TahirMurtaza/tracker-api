@@ -1,0 +1,4 @@
+date,amount,currency,category,description
+2026-11-01,1200.00,PKR,Food,groceries
+2026-11-02,15.50,AED,Food,coffee
+not-a-date,5,PKR,Food,bad row
